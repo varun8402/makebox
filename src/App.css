@@ -1,10 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
-* {
+html,body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x:hidden;
   font-family: 'Outfit', sans-serif;
+}
+
+.btn {
+  appearance: none;
+  all: unset;
+  position: relative;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(3px);
+  color: white;
+  border-radius: 1rem;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  /*   z-index: -1; */
+  pointer-events: none;
+  inset: 0px;
+
+  border-radius: inherit;
+  /* padding is the border width */
+  padding: 2px;
+  background: linear-gradient(
+    to bottom right,
+    var(--c1) 0%,
+    var(--c3) 33%,
+    var(--c2) 62%,
+    var(--c3) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: --c1 300ms ease, --c2 300ms ease, --c3 300ms ease;
+}
+
+.btn:hover:before {
+  --c1: #525252;
+  --c2: #878787;
+  --c3: #414141;
+}
+
+.btn:active:before {
+  --c1: #525252;
+  --c2: #414141;
+  --c3: #414141;
 }
