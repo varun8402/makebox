@@ -6,6 +6,7 @@ import HeroSection from "./screens/HeroSection";
 import Navbar from "./components/Nav";
 import FeatureSection from "./screens/FeatureSection";
 import SwitchSection from "./screens/SwitchSection";
+import ThreeDModelSection from "./screens/3dmodelsection";
 export default function App() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function App() {
       <HeroSection/>
       <FeatureSection />
       <SwitchSection />
+      <ThreeDModelSection/>
     </>
   );
 }
