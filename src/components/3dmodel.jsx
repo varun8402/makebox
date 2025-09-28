@@ -26,14 +26,14 @@ function Model(props) {
 
   return (
     <Center>
-       <primitive ref={modelRef} object={scene}  scale = {2.4} />
+       <primitive ref={modelRef} object={scene}  scale = {2.6} />
     </Center>
   );
 }
 export const ThreeDModel = () => {
   return (
     <Canvas
-      style={{ width: "100vw", height: "100vh", background: "black" }}
+      style={{ width: "100vw", height: "100vh", background: "#161616" }}
       camera={{ position: [40, 10, -10], fov: 60 }}
     >
       

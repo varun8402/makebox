@@ -4,12 +4,15 @@ import { ThreeDModel } from "./components/3dmodel";
 import { BlueSwitch } from "./components/blueswitchmodel";
 import HeroSection from "./screens/HeroSection";
 import Navbar from "./components/Nav";
+import FeatureSection from "./screens/FeatureSection";
+import SwitchSection from "./screens/SwitchSection";
 export default function App() {
   return (
     <>
       <Navbar />
       <HeroSection/>
-      <BlueSwitch />
+      <FeatureSection />
+      <SwitchSection />
     </>
   );
 }
