@@ -24,6 +24,7 @@ export const BrownSwitch = () => {
 
       <Model/>
       <OrbitControls  enableZoom={false}/>
+      
     </Canvas>
   );
 }

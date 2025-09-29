@@ -19,8 +19,8 @@ export const BlueSwitch = () => {
       style={{ width: "20vw", height: "34vh", }}
       camera={{ position: [10, 10, 10], fov: 60 }}
     >
-      <ambientLight intensity={4} />
-      <directionalLight position={[10,0,10]} intensity={20}/>
+      <ambientLight intensity={2} />
+      <directionalLight position={[10,10,10]} intensity={20}/>
       <Model/>
       <OrbitControls  enableZoom={false}/>
     </Canvas>

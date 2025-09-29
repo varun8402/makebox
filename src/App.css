@@ -57,3 +57,9 @@ html,body {
   --c2: #414141;
   --c3: #414141;
 }
+canvas {
+  cursor: grab;
+}
+canvas:active {
+  cursor: grabbing;
+}

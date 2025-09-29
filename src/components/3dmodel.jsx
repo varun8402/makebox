@@ -33,7 +33,7 @@ function Model(props) {
 export const ThreeDModel = () => {
   return (
     <Canvas
-      style={{ width: "100vw", height: "100vh", background: "#161616" }}
+      style={{ width: "100vw", height: "100vh", background: "black" }}
       camera={{ position: [40, 10, -10], fov: 60 }}
     >
       

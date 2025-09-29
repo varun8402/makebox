@@ -19,8 +19,8 @@ export const RedSwitch = () => {
       style={{ width: "20vw", height: "34vh", }}
       camera={{ position: [10, 10, 10], fov: 60 }}
     >
-      <ambientLight intensity={2} />
-      <directionalLight position={[10,0,10]} intensity={10}/>
+      <ambientLight intensity={1} />
+      <directionalLight position={[0,10,10]} intensity={8}/>
       <Model/>
       <OrbitControls  enableZoom={false}/>
     </Canvas>
