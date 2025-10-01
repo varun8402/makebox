@@ -5,7 +5,7 @@ import { RedSwitch } from "../components/redswitchmodel";
 
 const SwitchSection = () => {
     return (
-        <div className="mt-19">
+        <div className="mt-19  " data-aos="fade-up">
             <h3 className = "text-center text-lg text-white mr-2 font-thin" >Customizable</h3>
             <h1 className ="text-[4em] text-white text-center font-bold ">Cherry MX Switches</h1>
             <div className = "flex gap-8 w-full justify-center items-center text-[32px] font-semibold">

@@ -1,8 +1,8 @@
 import { ThreeDModel2 } from "../components/3dmodel2";
 const ThreeDModelSection = () => {
     return (
-        <div className="py-20 px-20 mt-20">
-            <h1 className="text-5xl font-bold text-white  mb-12 ml-20">
+        <div className="py-20 px-20 mt-20" >
+            <h1 className="text-5xl font-bold text-white  mb-12 ml-20" data-aos="fade-up">
                Take a closer look.
                <br/>
                <span className = "text-[#21AEF5] text-2xl ml-2">3D model</span>
@@ -11,13 +11,13 @@ const ThreeDModelSection = () => {
                 
                 <div className = "max-w-lg text-center mt-10">
                    <ul className="flex flex-col gap-10 text-white text-xl font-thin px-10"> 
-                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl">Aluminium unibody</li>
-                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl">Mechanical Switches</li>
-                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl">Solid Dials</li>
-                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl">Customization</li>
+                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl" data-aos="fade-up">Aluminium unibody</li>
+                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl" data-aos="fade-up">Mechanical Switches</li>
+                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl" data-aos="fade-up">Solid Dials</li>
+                    <li className = "bg-[#333333] p-2 px-5 rounded-2xl" data-aos="fade-up">Customization</li>
                    </ul>
                 </div>
-                <div className = "ml-10">
+                <div className = "ml-10 " data-aos ="fade-in" >
                     <ThreeDModel2 />
                 </div>
             </div>
