@@ -19,11 +19,11 @@ const DetailsSections = () => {
            
 
 
-            <div className="flex flex-col mt-20 items-center justify-center" data-aos="fade-up">
-                <h2 className = "text-white text-7xl font-semibold max-w-3xl text-center mt-30" >Personalized workflow for all needs</h2>
-                <img src = "https://res.cloudinary.com/dwdsw96fy/image/upload/v1759086060/boardlayoutpng1_hh6skk.png" alt = "detailsimg" className = "w-[40%] mt-20"/>
+            <div className="flex flex-col mt-20 items-center justify-center" >
+                <h2 className = "text-white text-7xl font-semibold max-w-3xl text-center mt-30 "  data-aos="fade-up">Personalized workflow for all needs</h2>
+                <img src = "https://res.cloudinary.com/dwdsw96fy/image/upload/v1759086060/boardlayoutpng1_hh6skk.png" alt = "detailsimg" className = "w-[40%] mt-20" data-aos = "fade-up"/>
             </div>
-            <div className = "text-white text-center max-w-2xl mx-auto  mt-20">
+            <div className = "text-white text-center max-w-2xl mx-auto  mt-20" data-aos = "fade-up">
                 <p>Push boundaries and bring any vision to life through seamless  interactions and unlimited creative control. MAKEBOX is our most  powerful and highly customizable editing console for creative  professionals.</p>
             </div>
         </div>

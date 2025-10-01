@@ -40,7 +40,7 @@ export const ThreeDModel = () => {
       <ambientLight intensity={0.8} />
       <directionalLight position={[0, 0, 10]} />
       <directionalLight position={[30, 70, 10]} />
-      <Model />
+      <Model data-aos="fade-in"/>
       
     </Canvas>
   );
